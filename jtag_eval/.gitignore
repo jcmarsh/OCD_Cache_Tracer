@@ -1,0 +1,43 @@
+# Object files
+*.o
+*.d
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+
+*.size
+
+# Misc
+xsdb/instr_nostart.xsdb
+done
+source_me.sh
+openOCD_cfg/mnt/*
+!openOCD_cfg/mnt/.gitkeep
