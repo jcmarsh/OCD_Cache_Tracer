@@ -1,0 +1,10 @@
+[submodule "drseus"]
+	path = drseus
+	url = https://github.com/jcmarsh/drseus.git
+[submodule "benchmark_codes"]
+	path = benchmark_codes
+	url = https://github.com/jcmarsh/benchmark_codes.git
+	branch = zybo
+[submodule "mibench"]
+	path = mibench
+	url = https://github.com/jcmarsh/mibench_zybo.git
