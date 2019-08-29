@@ -1,6 +1,7 @@
 [submodule "drseus"]
 	path = drseus
 	url = https://github.com/jcmarsh/drseus.git
+        branch = openocd
 [submodule "benchmark_codes"]
 	path = benchmark_codes
 	url = https://github.com/jcmarsh/benchmark_codes.git
