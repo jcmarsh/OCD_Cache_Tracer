@@ -1,0 +1,7 @@
+# Place in /etc/udev/rules.d/ to create /ttyUSBzybo device when zybo is connected
+
+# Only create symlink for specific Zybo
+# SUBSYSTEM=="tty", ATTRS{serial}=="210279771816", SYMLINK+="ttyUSBzybo"
+
+# Should work for any Zybo
+SUBSYSTEM=="tty", ATTRS{idProduct}=="6010", ATTRS{idVendor}=="0403", SYMLINK+="ttyUSBzybo"
