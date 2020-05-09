@@ -9,3 +9,6 @@
 [submodule "mibench"]
 	path = mibench
 	url = https://github.com/jcmarsh/mibench_zybo.git
+[submodule "jtag_eval"]
+	path = jtag_eval
+	url = https://github.com/jcmarsh/jtag_eval.git
